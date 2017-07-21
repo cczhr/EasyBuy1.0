@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+             android:background="#ffffff"
+              android:padding="4dp"
+              android:weightSum="1">
+<!--5-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:paddingTop="3dp"
+        android:layout_width="97dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="便捷买买买"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.02"
+        android:weightSum="4">
+
+        <ImageView
+            android:id="@+id/zhi1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/zhifubao"/>
+
+        <ImageView
+            android:id="@+id/zhi2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+
+            android:layout_weight="1"
+            app:srcCompat="@drawable/zhifubao"/>
+
+        <ImageView
+            android:id="@+id/wei1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+
+            android:layout_weight="1"
+            app:srcCompat="@drawable/zhifubao"/>
+
+        <ImageView
+            android:id="@+id/wei2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+
+            android:layout_weight="1"
+            app:srcCompat="@drawable/zhifubao"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:text="扫一扫"/>
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="收付款"/>
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="48dp"
+            android:textSize="13dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="扫一扫"/>
+
+        <TextView
+            android:id="@+id/t4"
+            android:textSize="13dp"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="收付款"/>
+    </LinearLayout>
+
+
+</LinearLayout>
